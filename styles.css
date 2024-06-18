@@ -1,0 +1,47 @@
+body {
+    font-family: Lato;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.titulo h1 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contenido {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.infoPost {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin: 0;
+    align-items: center;
+}
+
+.infoPost p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.infoPost p:last-child {
+    font-size: 13px;
+    color: #cab8aa;
+}
+
+.texto {
+    margin: 0;
+    padding: 5px 15px;
+}
